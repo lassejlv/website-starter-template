@@ -1,0 +1,61 @@
+/*
+    ITS not required to use this file.
+    You can use this link tag to use the file, 
+    <link rel="stylesheet" href="src/styles/global.css" />
+*/
+
+/* Fonts Imports */
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+/* Root */
+:root {
+  --robo: "Roboto", sans-serif;
+  --open: "Open Sans", sans-serif;
+  --pop: "Poppins", sans-serif;
+  --pap: "Pattaya", sans-serif;
+}
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  scroll-padding-top: 10vh;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
